@@ -19,7 +19,6 @@
     padding: 20px 20px 20px 20px;
     gap: 20px;
     align-items: center;
-    justify-content: center;
 }
 .textoSuperior{
     width: 1070px;
@@ -39,7 +38,7 @@
     font-size: 16px;
     border: none;
     padding: 12px 12px 12px 12px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 .logo{
     width: 50px;
