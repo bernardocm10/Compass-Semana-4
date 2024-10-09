@@ -6,8 +6,9 @@
     width: auto;
     height: auto; /* fit-content? */
     background-color: #FFFFFF;
+    font-family: "Roboto";
 } 
- /* universal */
+ /* universal or reused */
 .login{
     width: 240px;
     height: 48px;
@@ -37,6 +38,13 @@ h1{
     font-family: "Roboto", "Bold";
     font-size: 40px;
     line-height: 48px;
+}
+.subText, .feturedText{
+    font-weight: bold;
+    font-size: 40px;
+}
+.featuredDesc, .subDesc{
+    font-size: 16px;
 }
  /* navbar */
 .navbar{
@@ -119,7 +127,8 @@ h1{
     padding-right: 170px;
 }
 .explicacao{
-    font-family: "Roboto", "Bold";
+    font-family: "Roboto";
+    font-weight: bold;
     font-size: 40px;
     color: #000000;
     display: inline-block;
@@ -166,13 +175,6 @@ h1{
     gap: 24px;
     align-items: center;
 }
-.feturedText{
-    font-weight: bold;
-    font-size: 40px;
-}
-.featuredDesc{
-    font-size: 16px;
-}
 .listTools{
     display: flex;
     flex-direction: row;
@@ -201,12 +203,76 @@ h1{
 .subscribeUpdates{
     display: flex;
     width: auto;
-    height: auto;
+    height: 388px;
     gap: 60px;
     padding: 60px 170px 60px 170px;
     background-color: #FFFFFF;
+    justify-content: center;
+}
+.subscribeText{
+    padding-left: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    font-family: "Roboto";
+    color: #331436;
 }
 .subscribeHomePage{
     display: flex;
+    color: #331436;
     flex-direction: column;
+    padding-left: 170px;
+    padding-right: 170px;
+    justify-content: center;
+    font-family: "Roboto";
+}
+.insertEmail{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.thatsalie{
+    color: #000000;
+    opacity: 0.5;
+    font-size: 12px;
+}
+.insertUser{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+#uname, #uemail{
+    font-weight: Medium;
+}
+.uemailinsert, .unameinsert{
+    opacity: 0.5;
+    border-radius: 6px;
+    gap: 4px;
+    padding: 8px 400px 8px 12px;
+    border-color: #000000 ;
+    border-width: 1px;
+}
+
+/* content - footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #331436;
+    height: 220px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+.legalStuff{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    gap: 60px;
+    font-family: "Roboto";
+    padding-left: 60px;
 }
