@@ -276,3 +276,14 @@ footer{
     font-family: "Roboto";
     padding-left: 60px;
 }
+
+/* LoginPage */
+.loginPage{
+    display: flex;
+    width: auto;
+    height: 600px;
+    gap: 60px;
+    padding: 60px 170px 60px 170px;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
