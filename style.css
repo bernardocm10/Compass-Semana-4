@@ -31,6 +31,7 @@ a:visited{
     border: none;
     padding: 12px 12px 12px 12px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .dark{
@@ -44,6 +45,7 @@ a:visited{
     border: none;
     padding: 12px 12px 12px 12px;
     border-radius: 6px;
+    cursor: pointer;
 }
 h1{ 
     font-family: "Roboto", "Bold";
@@ -53,6 +55,7 @@ h1{
 .subText, .feturedText{
     font-weight: bold;
     font-size: 40px;
+    width: auto;
 }
 .featuredDesc, .subDesc{
     font-size: 16px;
@@ -229,6 +232,7 @@ h1{
     justify-content: center;
 }
 .subscribeText{
+    width: 440px;
     padding-left: 170px;
     display: flex;
     flex-direction: column;
@@ -262,7 +266,7 @@ h1{
     padding-bottom: 40px;
 }
 #uname, #uemail{
-    font-weight: Medium;
+    font-weight: 500;
 }
 .uemailinsert, .unameinsert{
     opacity: 0.5;
@@ -307,6 +311,13 @@ footer{
     padding: 60px 170px 60px 170px;
     background-color: #FFFFFF;
     justify-content: center;
+}
+.resultMessage{
+    color: #000000;
+    opacity: 0.7;
+}
+.emailform{
+    display: flex;
 }
 
 
