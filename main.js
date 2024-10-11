@@ -15,14 +15,14 @@ emailform.addEventListener("submit", function (event){
         localStorage.setItem('email', email);
         localStorage.setItem('password', password);
         
-        resultmessage.textContent = "Cadastro concluído! Já estamos te redirecionando."
+        resultmessage.textContent = "Registration completed! We're already redirecting you."
         resultmessage.style.color = "black";
         setTimeout(function() {
             window.location.href = "./kanbanpage.html";
         }, 3000);
     }
     else{
-        resultmessage.textContent = "Insira um e-mail válido"
+        resultmessage.textContent = "Enter a valid e-mail address"
         resultmessage.style.color = "red";
     }
 })
