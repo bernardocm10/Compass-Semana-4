@@ -52,13 +52,21 @@ h1{
     font-size: 40px;
     line-height: 48px;
 }
-.subText, .feturedText{
+.feturedText{
     font-weight: bold;
     font-size: 40px;
     width: auto;
 }
+.subText{
+    font-weight: bold;
+    font-size: 40px;
+    width: 440px;
+}
 .featuredDesc, .subDesc{
     font-size: 16px;
+}
+.subDesc, .subText{
+    padding-left: 120px;
 }
 body{
     overflow-x: hidden;
