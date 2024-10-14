@@ -471,3 +471,21 @@ footer{
     height: 25px;
     width: 25px;
 }
+
+/* experimentação hover */
+.img2, .img3, .img4{
+    transition: .35s;
+    cursor: pointer;
+}
+.imgExemples:hover > :not(:hover){
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+.img5, .img6, .img7, .img8{
+    transition: .35s;
+    cursor: pointer;
+}
+.listTools:hover > :not(:hover){
+    opacity: 0.5;
+    transform: scale(0.9);
+}
