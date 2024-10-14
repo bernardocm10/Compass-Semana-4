@@ -473,7 +473,7 @@ footer{
 }
 
 /* experimentação hover */
-.img2, .img3, .img4{
+.img2, .img3, .img4, .img5, .img6, .img7, .img8{
     transition: .35s;
     cursor: pointer;
 }
@@ -481,11 +481,15 @@ footer{
     opacity: 0.5;
     transform: scale(0.9);
 }
-.img5, .img6, .img7, .img8{
+.listTools:hover > :not(:hover){
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+.headertextosH, .headertextosA, .headertextosS, .headertextosP{
     transition: .35s;
     cursor: pointer;
 }
-.listTools:hover > :not(:hover){
+.navigation:hover > :not(:hover){
     opacity: 0.5;
     transform: scale(0.9);
 }
