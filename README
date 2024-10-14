@@ -1,0 +1,18 @@
+# Desafio 1 COMPASS
+
+Este é um projeto web desenvolvido com HTML, CSS e JavaScript puro, sem o uso de frameworks.  Composto por três páginas interativas: Home, Login e Kanban.
+
+## Funcionalidades
+
+- **Home:** Apresentação do site/projeto.
+- **Login:** Página de login que salva os dados no Local Storage.
+- **Kanban:** Imitação de um projeto do Figma, com layout travado e somente funcionalidade da navbar/footer.
+
+## Estrutura
+
+- **Navegação:** Todas as páginas possuem uma navbar e um footer interativos, que direcionam para suas respectivas funções, exemplo: redes sociais e home page.
+
+## Como Rodar o Projeto
+
+1. Clone este repositório.
+2. Abra o arquivo `index.html` no seu navegador.
